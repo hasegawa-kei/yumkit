@@ -1,0 +1,16 @@
+header.navbar.navbar-fixed-top.navbar-inverse
+   .container
+     = link_to "sample app", "#", id: "logo"
+     nav
+       ul.nav.navbar-nav.navbar-right
+         li "Home",
+
+           li "Users"
+           li.dropdown
+             a.dropdown-toggle data-toggle="dropdown" href="#"
+               | Account
+               b.caret
+             ul.dropdown-menu
+               li "Profile"
+               li "Settings"
+               li.divider
